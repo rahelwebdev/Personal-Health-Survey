@@ -3,11 +3,13 @@ session_start();
 session_destroy();
 
 include 'header.php'; 
+
 ?>
 
   <div class="row">
     <div class="col-sm-8" style= "text-align: center; margin:auto;"
 >
+<?php include 'php/error-types.php';?>
       <!-- CONTENT -->
       <p id="introduction">We care about your health! 
         <br>Fill out this questionnare to see where you are at<br>

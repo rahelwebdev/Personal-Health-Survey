@@ -70,8 +70,7 @@ if (isset($_SESSION['index'])) { // Prüfe mit isset() den Schlüssel 'index' in
   }
 
 
-
-
+/*
 if(false) {
 header('Location: positiveFeedback.php');
 }
@@ -79,3 +78,4 @@ else {
     header('Location: negativeFeedback.php');
 }
 ?>
+*/
