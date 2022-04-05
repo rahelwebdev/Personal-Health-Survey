@@ -7,9 +7,7 @@ include 'header.php';
 ?>
 
   <div class="row">
-    <div class="col-sm-8" style= "text-align: center; margin:auto;"
->
-<?php include 'php/error-types.php';?>
+    <div class="col-sm-8" style= "text-align: center; margin:auto;">
       <!-- CONTENT -->
       <p id="introduction">We care about your health! 
         <br>Fill out this questionnare to see where you are at<br>
@@ -38,7 +36,7 @@ include 'header.php';
         <input type="hidden" name="lastPageID" value="index">
         <input type="hidden" name="range-slider-changed" id="range-slider-changed">
         <p id="validation-warning" class="warning"></p>
-        <button type="submit" class="btn btn-primary">OK</button>  
+        
         <p class="spacer"></p>
         <a href="questionPage2.php" class="next">Next </a>
       </form>

@@ -24,7 +24,6 @@ include 'data-collector.php';
     <input type="hidden" name="lastPageID" value="question2">
         <input type="hidden" name="range-slider-changed" id="range-slider-changed">
         <p id="validation-warning" class="warning"></p>
-        <button type="submit" class="btn btn-primary">OK</button>
         <p class="spacer"></p>
         <a href="questionPage3.php" class="next">Next </a>
 

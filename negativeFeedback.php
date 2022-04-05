@@ -19,7 +19,7 @@ include 'header.php';
     </div>
   </div>
   
-<?php include 'healthy-person-eating-fruit.php'; ?>
+
 
 
 
